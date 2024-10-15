@@ -6,7 +6,7 @@ const Categorys = () => {
       {cats.map((cat, i) => (
         <div
           key={i}
-          className="bg-white p-2 rounded-xl flex justify-center items-center"
+          className="bg-[#222] p-2 rounded-xl flex justify-center items-center text-white"
         >
           <span className="text-[18px] font-medium">{cat}</span>
         </div>

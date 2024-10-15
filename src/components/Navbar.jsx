@@ -1,7 +1,7 @@
 import {Avatar} from "@nextui-org/react";
 
 import { CiSearch } from "react-icons/ci";
-
+ 
 const Navbar = () => {
     return <div className="flex flex-row justify-between items-center text-black w-full px-7 py-4">
         <CiSearch className="text-[36px] text-white"/>
