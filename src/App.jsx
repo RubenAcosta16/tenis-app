@@ -29,7 +29,7 @@ function App() {
       </p>
 
       {/* categorias */}
-      {/* <Categorys></Categorys> */}
+      <Categorys></Categorys>
 
       <ShowAd></ShowAd>
 
