@@ -2,7 +2,7 @@ const cats = ["☀ Sun", "🕶 Cool", "🍣 Sushi", "🍨 Ice", "😈 wow", "♥
 
 const Categorys = () => {
   return (
-    <div className="flex overflow-x-auto whitespace-nowrap w-full pl-6 mt-[20px] text-black gap-3">
+    <div className="flex overflow-x-auto whitespace-nowrap w-full pl-6 mt-[20px] text-black gap-3 custom-scroll">
       {cats.map((cat, i) => (
         <div
           key={i}

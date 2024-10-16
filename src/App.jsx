@@ -6,6 +6,7 @@ import Categorys from "./components/Categorys";
 import AdTeni from "./components/AdTeni";
 import TextCollections from "./components/TextCollections";
 import Start from "./components/Start";
+import AdTeniComp from "./components/AdTeniComp";
 
 function App() {
   return (
@@ -22,6 +23,8 @@ function App() {
       <TextCollections></TextCollections>
 
       <AdTeni></AdTeni>
+
+      <AdTeniComp></AdTeniComp>
 
 {/* +20px porque 50 son obligatorios pa que no se pegue arriba */}
       <p className="text-[26px] font-medium ml-5 text-yellow-400 mt-[70px]">

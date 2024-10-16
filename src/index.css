@@ -2,12 +2,35 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
 /* .inter{
     font-family: 'Inter', sans-serif; */
-    /* font-weight: ;
+/* font-weight: ;
     
 } */
+
+.glass {
+  background: rgba(255, 255, 255, 0.2);
+  /* box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37); */
+  backdrop-filter: blur(6.5px);
+  -webkit-backdrop-filter: blur(6.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.custom-scroll {
+  overflow: auto; /* Permite el desplazamiento */
+}
+
+/* Para navegadores WebKit (Chrome, Safari, etc.) */
+.custom-scroll::-webkit-scrollbar {
+  display: none; /* Oculta la barra de scroll */
+}
+
+/* Para Firefox */
+.custom-scroll {
+  scrollbar-width: none; /* Oculta la barra de scroll */
+}

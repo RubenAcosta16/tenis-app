@@ -7,7 +7,7 @@ const AdTeni = () => {
     <div className="w-full flex flex-col  justify-center items-center overflow-hidden">
       <div className="w-full flex flex-col  justify-center items-center h-[120px] mt-[20px] relative  mt-[80px] mb-[90px]">
         <Image
-          className="overflow-x-hidden object-cover rotate-[-15deg] mx-auto relative left-[10%]"
+          className="overflow-x-hidden object-cover rotate-[-15deg] mx-auto relative left-[5%]"
           src="/teni4.png" // Ruta de la imagen (puede ser interna o externa)
           alt="Tenis negro" // Texto alternativo
           width={400} // Ancho de la imagen en píxeles
