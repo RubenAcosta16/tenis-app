@@ -2,7 +2,7 @@ import { Image } from "@nextui-org/react";
 
 const ShowAd = () => {
   return (
-    <div className="bg-[#b60000]  md:w-[390px] h-[120px] mx-auto rounded-3xl flex flex-row justify-between items-center text-white px-6 mt-[20px]">
+    <div className="bg-[#b60000] w-[90%]  md:w-[390px] h-[120px] mx-auto rounded-3xl flex flex-row justify-between items-center text-white px-6 mt-[20px]">
       <Image
         className="  object-cover rotate-[-5deg] mt-[-20px] ml-[-20px]"
         src="/teni3.png" // Ruta de la imagen (puede ser interna o externa)
