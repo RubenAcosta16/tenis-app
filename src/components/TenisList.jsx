@@ -82,7 +82,7 @@ const sneakers = [
 
 const TenisList = () => {
   return (
-    <div className="grid grid-cols-2 w-full gap-4 px-5 mt-5">
+    <div className="grid grid-cols-2 md:grid-cols-3 w-full md:w-[70%] lg:w-[50%] mx-auto gap-4 px-5 mt-5">
       {sneakers.map((sneacker,i) => (
         <TenisCard sneacker={sneacker} key={i}></TenisCard>
       ))}

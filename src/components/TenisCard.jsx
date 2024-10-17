@@ -1,12 +1,9 @@
 import { Image } from "@nextui-org/react";
 import { CiHeart } from "react-icons/ci";
 
-const TenisCard = ({sneacker}) => {
+const TenisCard = ({ sneacker }) => {
   return (
-    <div
-      
-      className="flex flex-col  bg-[#222] py-5 px-4 rounded-2xl  relative"
-    >
+    <div className="flex flex-col   bg-[#222] py-5 px-4 rounded-2xl  relative">
       <CiHeart className="absolute text-[30px] top-3 left-3" />
       <div className="flex justify-center items-center relative z-10 h-[120px] ">
         <Image
